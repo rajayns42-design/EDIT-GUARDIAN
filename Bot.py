@@ -22,14 +22,14 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 buttons = [
-    [InlineKeyboardButton(text="𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽", url=f"https://t.me/EDITGUARDROBOT?startgroup=true")],
-    [InlineKeyboardButton(text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/THE_INCRICIBLE"),
-     InlineKeyboardButton(text="𝗦𝗼𝘂𝗿𝗰𝗲", url="https://t.me/ZOYU_SUPPORT")],
-    [InlineKeyboardButton(text="𝗢𝘄𝗻𝗲𝗿", url="https://t.me/LEGEND_MICKEY")]
+    [InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴩ ʙᴀʙʏ", url=f"http://t.me/EDITGUARDIANPR_OBOT?startgroup=true")],
+    [InlineKeyboardButton(text="🥀 𝐔𝐏𝐃𝐀𝐓𝐄 🥀", url="https://t.me/Love_Bot_143"),
+     InlineKeyboardButton(text=" 🥀𝐒𝐔𝐏𝐏𝐎𝐑𝐓 🥀", url="https://t.me/Love_familysupport")],
+    [InlineKeyboardButton(text="👑 𝐎𝐖𝐍𝐄𝐑 👑", url="https://t.me/ll_WTF_SHEZADA_ll")]
 ]
 
 PM_START_TEXT = """
-*Hello* {}[✨]({}) 👋 I'm your 𝗘𝗱𝗶𝘁 𝗚𝘂𝗮𝗿𝗱𝗶𝗮𝗻 𝗕𝗼𝘁, here to maintain a secure environment for our discussions.
+*Hello* {}[✨]({}) 👋 I'm your 𝗘𝗱𝗶𝘁 𝗚𝘂𝗮𝗿𝗱𝗶𝗮𝗻 𝗣𝗿𝗼 𝗕𝗼𝘁, here to maintain a secure environment for our discussions.
 
 🚫 𝗘𝗱𝗶𝘁𝗲𝗱 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗗𝗲𝗹𝗲𝘁𝗶𝗼𝗻: 𝗜'𝗹𝗹 𝗿𝗲𝗺𝗼𝗩𝗲 𝗲𝗱𝗶𝘁𝗲𝗱 𝗺𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝘁𝗼 𝗺𝗮𝗶𝗻𝘁𝗮𝗶𝗻 𝘁𝗿𝗮𝗻𝘀𝗽𝗮𝗿𝗲𝗻𝗰𝘆.
     
@@ -40,8 +40,8 @@ PM_START_TEXT = """
 ➡️ Click on 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 to add me and keep our group safe!
 """
 
-IMG = ["https://telegra.ph/file/73c9aa7b5e1a2e053d915.jpg", "https://telegra.ph/file/6cf4d7a5d07cdbc5c4c4f.jpg"]
-PM_START_IMG = "https://telegra.ph/file/821cfbf567b7227b26fab.jpg"
+IMG = ["https://files.catbox.moe/tk3zkl.jpg"]
+PM_START_IMG = "https://files.catbox.moe/tk3zkl.jpg"
 
 def get_readable_time(seconds: int) -> str:
     count = 0
