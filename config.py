@@ -6,9 +6,9 @@ API_HASH = "26841295"
 TELEGRAM_TOKEN = "7807373262:AAEGtxIYlbNQeS-aJu0yyMgE3zcjqrkizik"
 
 # Your telegram user ID (owner)
-OWNER_ID = 7520092354
+OWNER_ID = 8211189367
 
-SUDO_ID = [6519786491]
+SUDO_ID = [6581372383]
 
 MONGO_URI = "mongodb+srv://Jiosaavan:Jiosaavan@cluster0.lv9br.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
@@ -18,4 +18,4 @@ LOGGER = True
 
 BOT_NAME = "Edit Guardian"
 
-SUPPORT_ID = ()
+SUPPORT_ID = (1003402877217)
